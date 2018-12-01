@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
 class RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
-  final Set<WordPair> _saved = new Set<WordPair>(); //set para guardar los favoritos
+  final Set<WordPair> _saved = new Set<WordPair>(); //sets para guardar los favoritos
   final _biggerFont = const TextStyle(fontSize: 18.0);
 
   Widget _buildSuggestions() {
